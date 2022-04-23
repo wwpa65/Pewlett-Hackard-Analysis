@@ -9,10 +9,10 @@ t.to_date
 
 INTO retirement_titles
 FROM employees AS e
-RIGHT JOIN titles AS t
+INNER JOIN titles AS t
 ON (e.emp_no=t.emp_no)
 WHERE e.birth_date BETWEEN '1952-01-01' AND '1955-12-31'
-ORDER BY emp_no, from_date DESC;
+ORDER BY emp_no;
 
 select * from retirement_titles;
 
@@ -43,9 +43,9 @@ t.title
 
 INTO mentorship_eligibility
 FROM employees as e
-LEFT JOIN depT_emp as de
+INNER JOIN depT_emp as de
 ON (e.emp_no = de.emp_no)
-LEFT JOIN titles as t
+INNER JOIN titles as t
 ON (e.emp_no = t.emp_no)
 WHERE de.to_date = '9999-01-01' 
 AND e.birth_date BETWEEN '1965-01-01' AND '1965-12-31'
