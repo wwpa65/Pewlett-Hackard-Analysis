@@ -4,8 +4,8 @@
 
 A SQL Database of Pewlett Hackard company was created by using information stored iin spreadsheets (in CSV files). These spreadsheets contained information on employees, departments, department-employees, salaries, department-manager, and titles. First, SQL tables were created in the database, and the data in sporeadsheets were imported to populate respective SQL tables. The primary keys and respective foreign keys were included in the tables and the type of columns of the tables were also defined. An Entity Relationship Diagram was created using Quick DBD website.
 
-https://www.quickdatabasediagrams.com
-Using the ERD as a reference as well as the knowledge of SQL queries, the following tabled were generated: 
+
+Using the [ERD](/https://www.quickdatabasediagrams.com) as a reference as well as the knowledge of SQL queries, the following tabled were generated: 
 - Retirement Titles - it holds all the titles of employees who were born between January 1, 1952 and December 31, 1955). 
 - Unique Titles - Because some employees may have multiple titles in the database—for example, due to promotions, a table was created that contained the most recent title of each employee using DISTINCT ON statement. 
 - Retirering Titles (Counts)- Then, use the COUNT() function was used to create a table that has the number of retirement-age employees by most recent job title. 
