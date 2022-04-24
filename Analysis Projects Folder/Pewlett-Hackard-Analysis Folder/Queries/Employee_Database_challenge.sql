@@ -32,6 +32,7 @@ INTO retiring_titles
 FROM unique_titles AS u
 GROUP BY title
 ORDER BY count DESC;
+select * from unique_titles;
 
 SELECT DISTINCT ON (emp_no) e.emp_no,
 e.first_name,
