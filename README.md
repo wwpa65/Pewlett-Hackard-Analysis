@@ -11,29 +11,36 @@ Using the ERD as a reference as well as the knowledge of SQL queries, the follow
 - Mentorship-Eligibility - Finally, a table was created to include only current employees inthe analysis, by excluding those employees who have already left the company. (it holds the current employees who were born between January 1, 1965 and December 31, 1965). 
 
 ## Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
+
+The ERD is shown below together with column information such as column type, primary key, and foreign key. 
+
 ![ERD](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/QuickDBD.png)
 
 **Screenshot showing Entity Relationship Diagram (ERD) for the initial tables**
 
-![Mentorship Eligibility](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/retirement_titles.png)
+There were 133736 retiring titles in the first query for creating the table, "Retirement Titles". It had duplicate employee information for those who had promotions. 
+
+![Retirement Titles](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/retirement_titles.png)
 
 **Screenshot showing results for Retirement Titles**
 
+A table that contained the most recent title of each employee had 72458 entries. 
+
 ![Unique_Titles](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/![Mentorship Eligibility](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/unique_titles.png)
 **Screenshot showing results for Unique Titles**
+
+
+The 72458 employees who were eligible for retirementincluded 25916 Senior engineers, 24926 Senior Engineers, 9285 Engineers, 1090 Assistant Engineers, 3603 Technical leaders, 7636 Staff, and 2 Managers. 
 
 ![Mentorship Eligibility](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/retiring_titles.png)
 
 **Screenshot showing results for Retiring Titles**
 
+Finally, there were 170 Senior Engineers, 500 Engineers, 78 Assistant Engineers, 77 Technical Leaders, 568 Senior Staff, and 156 Staff. 
 
 ![Mentorship Eligibility](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/mentorship_eligibility.png)
 
 **Screenshot showing results for Mentorship Eligiubility**
-
-Deliverable 1: The Number of Retiring Employees by Title
-Deliverable 2: The Employees Eligible for the Mentorship Program
-Deliverable 3: A written report on the employee database analysis (README.md)
 
 
 
