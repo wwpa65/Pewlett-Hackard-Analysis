@@ -4,6 +4,7 @@
 
 A SQL Database of Pewlett Hackard company was created by using information stored iin spreadsheets (in CSV files). These spreadsheets contained information on employees, departments, department-employees, salaries, department-manager, and titles. First, SQL tables were created in the database, and the data in sporeadsheets were imported to populate respective SQL tables. The primary keys and respective foreign keys were included in the tables and the type of columns of the tables were also defined. An Entity Relationship Diagram was created using Quick DBD website.
 
+https://www.quickdatabasediagrams.com
 Using the ERD as a reference as well as the knowledge of SQL queries, the following tabled were generated: 
 - Retirement Titles - it holds all the titles of employees who were born between January 1, 1952 and December 31, 1955). 
 - Unique Titles - Because some employees may have multiple titles in the database—for example, due to promotions, a table was created that contained the most recent title of each employee using DISTINCT ON statement. 
@@ -45,7 +46,7 @@ The ERD is shown below together with column information such as column type, pri
 
 -**Finally**, on my additional analysis, I found that there were 1549 employees who were eligible for the mentorship program that included 170 Senior Engineers, 500 Engineers, 78 Assistant Engineers, 77 Technical Leaders, 568 Senior Staff, and 156 Staff. 
 
-![Mentorship Eligibility Counts](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/MentorshipEligibility_Counts.png)
+![Mentorship Eligibility](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/MentorshipEligibility_Counts.png)
 
 **Screenshot showing results for number of employees Mentorship Eligiubility grouped by title **
 
@@ -55,7 +56,8 @@ This resulted "Null' values when used a LEFT JOIN (with mentoring_eligibility ta
 
 ![Mentorship Eligibility_Dept](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/ME-DeptInfo.png)
 
-**Screenshot showing results for query for obtaining department information*
+
+**Screenshot showing results for query for obtaining department information**
 
 
 ## Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
