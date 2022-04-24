@@ -45,9 +45,9 @@ The ERD is shown below together with column information such as column type, pri
 
 -**Finally**, on my additional analysis, I found that there were 1549 employees who were eligible for the mentorship program that included 170 Senior Engineers, 500 Engineers, 78 Assistant Engineers, 77 Technical Leaders, 568 Senior Staff, and 156 Staff. 
 
-![Mentorship Eligibility](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/MentorshipEligibility_Counts.png)
+![Mentorship Eligibility Counts](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/MentorshipEligibility_Counts.png)
 
-**Screenshot showing results for Mentorship Eligiubility**
+**Screenshot showing results for number of employees Mentorship Eligiubility grouped by title **
 
 To identify eligible employees for mentoring program by department, another query was made to include department information into a table. 
 This resulted "Null' values when used a LEFT JOIN (with mentoring_eligibility table on left), meaning that the dept-info table do not have inormation (emp_no and dept_no in the table). Therefore it needs to be updated. 
