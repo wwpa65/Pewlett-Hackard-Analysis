@@ -16,12 +16,24 @@ Now that Bobby has proven his SQL chops, his manager has given both of you two m
 
 
 ## Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
-
 ![ERD](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/QuickDBD.png)
+
+retiring_titles
+![Retirement_Titles](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/![Mentorship Eligibility](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/retirement_titles.png)
+
+
+![Unique_Titles](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/![Mentorship Eligibility](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/unique_titles.png)
+
+![Retiring_Titles](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/![Mentorship Eligibility](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/retiring_titles.png)
+
+
+![Mentorship Eligibility](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/mentorship_eligibility.png)
 
 Deliverable 1: The Number of Retiring Employees by Title
 Deliverable 2: The Employees Eligible for the Mentorship Program
 Deliverable 3: A written report on the employee database analysis (README.md)
+
+
 
 ## Summary: Provide high-level responses to the following questions, then provide two additional queries or tables that may provide more insight into the upcoming "silver tsunami."
 
