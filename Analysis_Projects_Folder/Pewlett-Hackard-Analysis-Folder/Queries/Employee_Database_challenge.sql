@@ -44,7 +44,7 @@ t.title
 
 INTO mentorship_eligibility
 FROM employees as e
-INNER JOIN depT_emp as de
+INNER JOIN dept_emp as de
 ON (e.emp_no = de.emp_no)
 INNER JOIN titles as t
 ON (e.emp_no = t.emp_no)
