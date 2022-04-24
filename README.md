@@ -33,7 +33,7 @@ The ERD is shown below together with column information such as column type, pri
 
 -**Retiring Titles (Counts):** The 72458 employees who were eligible for retirementincluded 25916 Senior engineers, 24926 Senior Engineers, 9285 Engineers, 1090 Assistant Engineers, 3603 Technical leaders, 7636 Staff, and 2 Managers.
 
-![Mentorship Eligibility](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/retiring_titles.png)
+![Retiring Titles](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/retiring_titles.png)
 
 **Screenshot showing results for Retiring Titles**
 
@@ -52,7 +52,7 @@ The ERD is shown below together with column information such as column type, pri
 To identify eligible employees for mentoring program by department, another query was made to include department information into a table. 
 This resulted "Null' values when used a LEFT JOIN (with mentoring_eligibility table on left), meaning that the dept-info table do not have inormation (emp_no and dept_no in the table). Therefore it needs to be updated. 
 
-![Mentorship Eligibility_Counts](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/ME-DeptInfo.png)
+![Mentorship Eligibility_Dept](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/ME-DeptInfo.png)
 
 **Screenshot showing results for query for obtaining department information*
 
