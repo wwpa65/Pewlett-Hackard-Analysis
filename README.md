@@ -19,25 +19,25 @@ The ERD is shown below together with column information such as column type, pri
 
 **Screenshot showing Entity Relationship Diagram (ERD) for the initial tables**
 
-There were 133736 retiring titles in the first query for creating the table, "Retirement Titles". It had duplicate employee information for those who had promotions. 
+- **There were 133736 retiring titles in the first query for creating the table, "Retirement Titles". It had duplicate employee information for those who had promotions.** 
 
 ![Retirement Titles](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/retirement_titles.png)
 
 **Screenshot showing results for Retirement Titles**
 
-A table that contained the most recent title of each employee had 72458 entries. 
+**A table that contained the most recent title of each employee (unique titles) had 72458 entries.**
 
 ![Unique_Titles](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/![Mentorship Eligibility](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/unique_titles.png)
 **Screenshot showing results for Unique Titles**
 
 
-The 72458 employees who were eligible for retirementincluded 25916 Senior engineers, 24926 Senior Engineers, 9285 Engineers, 1090 Assistant Engineers, 3603 Technical leaders, 7636 Staff, and 2 Managers. 
+-**The 72458 employees who were eligible for retirementincluded 25916 Senior engineers, 24926 Senior Engineers, 9285 Engineers, 1090 Assistant Engineers, 3603 Technical leaders, 7636 Staff, and 2 Managers.**
 
 ![Mentorship Eligibility](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/retiring_titles.png)
 
 **Screenshot showing results for Retiring Titles**
 
-Finally, on my additional analysis, I found that there were 1549 employees who were eligible for the mentorship program that included 170 Senior Engineers, 500 Engineers, 78 Assistant Engineers, 77 Technical Leaders, 568 Senior Staff, and 156 Staff. 
+-**Finally, on my additional analysis, I found that there were 1549 employees who were eligible for the mentorship program that included 170 Senior Engineers, 500 Engineers, 78 Assistant Engineers, 77 Technical Leaders, 568 Senior Staff, and 156 Staff.** 
 
 ![Mentorship Eligibility](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/mentorship_eligibility.png)
 
