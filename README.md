@@ -13,9 +13,11 @@ Using the ERD you created in this module as a reference and your knowledge of SQ
 Now that Bobby has proven his SQL chops, his manager has given both of you two more assignments: determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. Then, you’ll write a report that summarizes your analysis and helps prepare Bobby’s manager for the “silver tsunami” as many current employees reach retirement age.
 
 
-![ERD](../Analysis Projects Folder/Pewlett-Hackard-Analysis Folder/Data/QuickDBD.png)
+
 
 ## Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
+
+![ERD](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/QuickDBD.png)
 
 Deliverable 1: The Number of Retiring Employees by Title
 Deliverable 2: The Employees Eligible for the Mentorship Program
