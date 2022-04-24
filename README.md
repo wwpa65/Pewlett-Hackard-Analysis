@@ -2,19 +2,13 @@
 
 ## Overview of the analysis: Explain the purpose of this analysis.
 
-A SQL Database of Pewlett Hackard company was created by using information stored iin spreadsheets (in CSV files). These spreadsheets contained information on employees, departments, department-employees, salaries, department-manager, and titles. First, SQL tables were created in the database, and the data in sporeadsheets were imported to populate respective SQL tables. The primary keys and respective foreign keys were included in the tables and the type of columns of the tables were also defined. An Entity Relationship Diagram was created using Quick DB website.
+A SQL Database of Pewlett Hackard company was created by using information stored iin spreadsheets (in CSV files). These spreadsheets contained information on employees, departments, department-employees, salaries, department-manager, and titles. First, SQL tables were created in the database, and the data in sporeadsheets were imported to populate respective SQL tables. The primary keys and respective foreign keys were included in the tables and the type of columns of the tables were also defined. An Entity Relationship Diagram was created using Quick DBD website.
 
-
-Using the ERD you created in this module as a reference and your knowledge of SQL queries, create a Retirement Titles table that holds all the titles of employees who were born between January 1, 1952 and December 31, 1955. Because some employees may have multiple titles in the database—for example, due to promotions—you’ll need to use the DISTINCT ON statement to create a table that contains the most recent title of each employee. Then, use the COUNT() function to create a table that has the number of retirement-age employees by most recent job title. Finally, because we want to include only current employees in our analysis, be sure to exclude those employees who have already left the company.
-
-Deliverable 2 Instructions
-
-Using the ERD you created in this module as a reference and your knowledge of SQL queries, create a mentorship-eligibility table that holds the current employees who were born between January 1, 1965 and December 31, 1965.
-
-Now that Bobby has proven his SQL chops, his manager has given both of you two more assignments: determine the number of retiring employees per title, and identify employees who are eligible to participate in a mentorship program. Then, you’ll write a report that summarizes your analysis and helps prepare Bobby’s manager for the “silver tsunami” as many current employees reach retirement age.
-
-
-
+Using the ERD as a reference as well as the knowledge of SQL queries, the following tabled were generated: 
+- Retirement Titles - it holds all the titles of employees who were born between January 1, 1952 and December 31, 1955). 
+- Unique Titles - Because some employees may have multiple titles in the database—for example, due to promotions, a table was created that contained the most recent title of each employee using DISTINCT ON statement. 
+- Retirering Titles - Then, use the COUNT() function was used to create a table that has the number of retirement-age employees by most recent job title. 
+- Mentorship-Eligibility - Finally, a table was created to include only current employees inthe analysis, by excluding those employees who have already left the company. (it holds the current employees who were born between January 1, 1965 and December 31, 1965). 
 
 ## Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 ![ERD](/Analysis_Projects_Folder/Pewlett-Hackard-Analysis-Folder/Data/QuickDBD.png)
