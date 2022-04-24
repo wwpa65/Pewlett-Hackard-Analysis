@@ -5,12 +5,14 @@
 A SQL Database of Pewlett Hackard company was created by using information stored iin spreadsheets (in CSV files). These spreadsheets contained information on employees, departments, department-employees, salaries, department-manager, and titles. First, SQL tables were created in the database, and the data in sporeadsheets were imported to populate respective SQL tables. The primary keys and respective foreign keys were included in the tables and the type of columns of the tables were also defined. An Entity Relationship Diagram was created using Quick DBD website.
 
 
-Using the [ERD](/https://www.quickdatabasediagrams.com) as a reference as well as the knowledge of SQL queries, the following tabled were generated: 
+Using the Entity Re Database (ERD)(using [Quick DBD](/https://www.quickdatabasediagrams.com)) as a reference as well as the knowledge of SQL queries, the following tabled were generated: 
 - Retirement Titles - it holds all the titles of employees who were born between January 1, 1952 and December 31, 1955). 
 - Unique Titles - Because some employees may have multiple titles in the database—for example, due to promotions, a table was created that contained the most recent title of each employee using DISTINCT ON statement. 
 - Retirering Titles (Counts)- Then, use the COUNT() function was used to create a table that has the number of retirement-age employees by most recent job title. 
 - Mentorship-Eligibility - Finally, a table was created to include only current employees inthe analysis, by excluding those employees who have already left the company. (it holds the current employees who were born between January 1, 1965 and December 31, 1965).
-- Additional queries were made to obtain a) counts of eligible employees for mentoring grouped by the employment title, b) to identify the number of employees needed for each department.  
+- Additional queries were made to obtain a) counts of eligible employees for mentoring grouped by the employment title, b) to identify the number of employees needed for each department. 
+
+Software and Webtools Used:     PostgresSQL, GitHub, [Quick DBD](/https://www.quickdatabasediagrams.com)
 
 ## Results: Provide a bulleted list with four major points from the two analysis deliverables. Use images as support where needed.
 
