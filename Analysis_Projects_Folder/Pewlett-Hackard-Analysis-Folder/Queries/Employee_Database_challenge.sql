@@ -55,4 +55,22 @@ ORDER BY emp_no;
 SELECT * FROM mentorship_eligibility;
 
 
+SELECT COUNT (me.title) me.title
+
+FROM mentorship_eligibility AS me
+GROUP BY me.title
+ORDER BY count DESC;
+
+SELECT me.emp_no,
+       me.first_name,
+       me.last_name,
+	   me.title,
+       di.emp_no,
+       di.dept_name
+	   
+FROM mentorship_eligibility AS me
+LEFT JOIN dept_info AS di
+ON (me.emp_no = di.emp_no)
+
+
 
