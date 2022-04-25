@@ -55,7 +55,7 @@ ORDER BY emp_no;
 SELECT * FROM mentorship_eligibility;
 
 
-SELECT COUNT (me.title) me.title
+SELECT COUNT (me.title), me.title
 
 FROM mentorship_eligibility AS me
 GROUP BY me.title
